@@ -1,0 +1,22 @@
+{
+  "menu": [ {
+    "label": "Packages",
+    "submenu": [ {
+        "label": "F* Interactive",
+        "submenu": [ {
+          "label": "Build project...",
+          "command": "fstar-interactive:trigger"
+        },
+        {
+          "label": "Terminate build",
+          "command": "fstar-interactive:stop"
+        },
+        {
+          "label": "Next error",
+          "command": "fstar-interactive:next-error"
+        }]
+      } ]
+  } ],
+
+  "context-menu": {}
+}

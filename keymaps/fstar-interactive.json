@@ -1,0 +1,20 @@
+{
+  ".platform-darwin": {
+    "cmd-alt-b": "fstar-interactive:trigger",
+    "cmd-alt-g": "fstar-interactive:error-match",
+    "cmd-alt-h": "fstar-interactive:error-match-first"
+  },
+  ".platform-linux, .platform-win32": {
+    "ctrl-shift-i": "fstar-interactive:trigger",
+    "ctrl-shift-c": "fstar-interactive:stop",
+    "ctrl-alt-g": "fstar-interactive:next-error",
+    "ctrl-alt-a": "fstar-interactive:all-errors"
+  },
+  ".fstar-interactive": {
+    "escape": "fstar-interactive:stop"
+  },
+  ".fstar-interactive-confirm": {
+    "enter": "fstar-interactive:confirm",
+    "escape": "fstar-interactive:no-confirm"
+  }
+}

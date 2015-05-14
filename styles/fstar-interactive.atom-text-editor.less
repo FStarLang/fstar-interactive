@@ -1,0 +1,128 @@
+atom-text-editor::shadow .gutter .line-number {
+  &.line-number-green {
+    color: #fff;
+    background-color: green;
+  }
+
+  &.line-number-blue {
+    color: #fff;
+    background-color: blue;
+  }
+
+  &.line-number-red {
+    color: #fff;
+    background-color: red;
+  }
+}
+
+.line {
+  &.line-checked {
+    background-color: green;
+  }
+
+  &.line-checking {
+    background-color: blue;
+  }
+
+  &.line-check-failed {
+    background-color: red;
+  }
+}
+
+// Remember: no default styling is provided for highlight decorations.
+.highlight-green .region {
+  background-color: green;
+}
+
+.highlight-blue .region {
+  background-color: blue;
+}
+
+.highlight-red .region {
+  background-color: red;
+}
+
+.highlight-squiggly .region {
+  border-bottom: 1px dashed rgba(250, 128, 114, .5);
+}
+
+@import 'ui-variables';
+
+.select-list.linter-list.popover-list {
+  font-family: @font-family;
+  font-size: @font-size;
+  width: auto;
+
+  .list-group li:not(.list-nested-item) {
+    padding-left: 0;
+    line-height: 18px;
+  }
+}
+
+.build {
+  .checking {
+    color: white;
+    background-image:none;
+    background-color: @background-color-warning;
+  }
+
+  h1.error {
+    color: white;
+    background-image: none;
+    background-color: @background-color-error;
+  }
+
+  h1.success {
+    color: white;
+    background-image: none;
+    background-color: @background-color-success;
+  }
+
+  h1.warning {
+    color: white;
+    background-image:none;
+    background-color: @background-color-warning;
+  }
+
+  ol {
+    transition: height 0.5s ease-in-out;
+    padding: 10px 0 0 10px;
+    min-height: 100px;
+    overflow-y: auto;
+  }
+
+  li {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    list-style: none;
+    font-family: monospace;
+  }
+
+  li.error {
+    animation: none;
+    -webkit-animation: none;
+    color: @text-color-error;
+  }
+
+}
+
+.error-message {
+  background-color: white;
+  color: @text-color-error;
+}
+
+.btn-container {
+  .btn {
+    float: right;
+    margin: 10px 10px 0 0;
+    color: @text-color-info;
+  }
+
+  .icon::before {
+    margin: 0;
+  }
+
+  .new-row {
+    clear: both;
+  }
+}

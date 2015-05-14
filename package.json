@@ -1,0 +1,24 @@
+{
+  "name": "fstar-interactive",
+  "main": "./lib/fstar-interactive",
+  "version": "0.1.0",
+  "description": "Interact with, or build, an F* project",
+  "repository": "https://github.com/FStarLang/fstar-interactive",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.50.0"
+  },
+  "dependencies": {
+    "lodash" : "^2.4.1",
+    "fs-plus": "^2.4.0",
+    "xregexp": "^2.0.0",
+    "ansi-to-html": "^0.3.0",
+    "temp": "^0.8.1",
+    "atom-space-pen-views": "^2.0.3"
+  },
+  "keywords": [
+    "F*",
+    "compile",
+    "proof assistant"
+  ]
+}
