@@ -6,7 +6,8 @@ Adapted from [atom-build](https://atom.io/packages/build)
 
 ## Installation
 
-* You need a working installation of F\* available in your default path
+* Add to the $PATH variable the absolute path of the directory in
+  which `fstar.exe` lives (normally `$FSTAR_HOME/bin`)
 
 * You also need an installation of [Atom], and it's a good idea to also install [atom-fstar].
 
