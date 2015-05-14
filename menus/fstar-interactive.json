@@ -4,7 +4,7 @@
     "submenu": [ {
         "label": "F* Interactive",
         "submenu": [ {
-          "label": "Build project...",
+          "label": "Check until the cursor",
           "command": "fstar-interactive:trigger"
         },
         {
@@ -14,6 +14,10 @@
         {
           "label": "Next error",
           "command": "fstar-interactive:next-error"
+        },
+        {
+          "label": "Show all errors",
+          "command": "fstar-interactive:all-errors"
         }]
       } ]
   } ],
