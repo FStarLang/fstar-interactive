@@ -7,7 +7,8 @@
   ".platform-linux, .platform-win32": {
     "ctrl-shift-i": "fstar-interactive:trigger",
     "ctrl-alt-g": "fstar-interactive:next-error",
-    "ctrl-alt-a": "fstar-interactive:all-errors"
+    "ctrl-alt-a": "fstar-interactive:all-errors",
+    "ctrl-alt-c": "fstar-interactive:stop"
   },
   ".fstar-interactive": {
     "escape": "fstar-interactive:stop"
