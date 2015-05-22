@@ -8,6 +8,10 @@
           "command": "fstar-interactive:trigger"
         },
         {
+          "label": "Check until check_marker",
+          "command": "fstar-interactive:gotoandtrigger"
+        },
+        {
           "label": "Terminate build",
           "command": "fstar-interactive:stop"
         },
