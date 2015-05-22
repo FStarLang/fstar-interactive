@@ -3,7 +3,8 @@
     "cmd-shift-i": "fstar-interactive:trigger",
     "cmd-shift-n": "fstar-interactive:gotoandtrigger",
     "cmd-alt-g": "fstar-interactive:next-error",
-    "cmd-alt-a": "fstar-interactive:all-errors"
+    "cmd-alt-a": "fstar-interactive:all-errors",
+    "cmd-alt-c": "fstar-interactive:stop"
   },
   ".platform-linux, .platform-win32": {
     "ctrl-shift-i": "fstar-interactive:trigger",
