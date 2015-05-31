@@ -22,7 +22,7 @@ the file, if there isn't one) until the current cursor.
 
 `Ctrl+Shift+G` will jump to the next error, if any. 
 
-`Ctrl+Shift+A` will display all the errors. 
+`Ctrl+Alt+A` will display all the errors. 
 
 `Ctrl+Alt+C` will kill the running background F\* process. 
 It's useful to do this to reset your state in case you observe odd behaviors.
