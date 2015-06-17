@@ -4,14 +4,16 @@
     "cmd-shift-n": "fstar-interactive:gotoandtrigger",
     "cmd-alt-g": "fstar-interactive:next-error",
     "cmd-alt-a": "fstar-interactive:all-errors",
-    "cmd-alt-c": "fstar-interactive:stop"
+    "cmd-alt-c": "fstar-interactive:stop",
+    "cmd-alt-x": "fstar-interactive:stopall"
   },
   ".platform-linux, .platform-win32": {
     "ctrl-shift-i": "fstar-interactive:trigger",
     "ctrl-shift-n": "fstar-interactive:gotoandtrigger",
     "ctrl-alt-g": "fstar-interactive:next-error",
     "ctrl-alt-a": "fstar-interactive:all-errors",
-    "ctrl-alt-c": "fstar-interactive:stop"
+    "ctrl-alt-c": "fstar-interactive:stop",
+    "ctrl-alt-x": "fstar-interactive:stopall"
   },
   ".fstar-interactive": {
     "escape": "fstar-interactive:stop"
