@@ -20,11 +20,11 @@ In a F\* buffer, pressing `Ctrl+Shift+I` will place a marker in the
 file and type-check the file from the previous marker (the start of
 the file, if there isn't one) until the current cursor.
 
-`Ctrl+Shift+G` will jump to the next error, if any. 
+`Ctrl+Alt+G` will jump to the next error, if any.
 
-`Ctrl+Alt+A` will display all the errors. 
+`Ctrl+Alt+A` will display all the errors.
 
-`Ctrl+Alt+C` will kill the running background F\* process. 
+`Ctrl+Alt+C` will kill the running background F\* process.
 It's useful to do this to reset your state in case you observe odd behaviors.
 
 `Ctrl+Shift+N` will type-check the file until the first
