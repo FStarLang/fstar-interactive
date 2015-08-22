@@ -5,6 +5,15 @@ the [Atom] editor. Package was originally adapted from [atom-build].
 
 ## Installation
 
+* You need a working F* binary that supports interactive mode
+  (old binary releases of F* do not support this, so you might need to build from F* source)
+
+      $ fstar.exe --in
+      module Blah
+      #end
+     
+      ok
+
 * You need an installation of [Atom], and it's a good idea to also
   install [atom-fstar] separately for syntax highlighting.
 
