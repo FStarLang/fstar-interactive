@@ -1,3 +1,5 @@
+***This mode is now unmaitained and has fallen behind the development of F***
+
 # FStar Interactive Mode
 
 An interactive mode for type-checking F\* code, built as a package for
