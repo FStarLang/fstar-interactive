@@ -1,4 +1,4 @@
-***This mode is now unmaitained and has fallen behind the development of F***
+***This mode is now unmaitained and has fallen behind the development of F****
 
 # FStar Interactive Mode
 
